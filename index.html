@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from chromewebstore.callyham.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Nov 2024 20:07:46 GMT -->
+<head>
+    <title>Chrome Web Store</title>
+    <link rel="stylesheet" href="fonts/open-sans/font.css" />
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="sidebar">
+        <a id="sidebar-header" href="index.html">
+          <img id="sidebar-header-icon" src="images/icon.svg" />
+          <span id="sidebar-header-text">chrome web store</span>
+        </a>
+        <form id="sidebar-search-container">
+          <input id="sidebar-search" type="text" name="q" value="" maxlength="300" placeholder="Search the store" />
+          <button id="sidebar-search-clear" type="reset" form="sidebar-search-container"></button>
+        </form>
+        <div id="sidebar-items">
+          <a class="sidebar-item" data-slug="extension" href="javascript:void(0)">Extensions</a>
+          <a class="sidebar-item" data-slug="statictheme" href="javascript:void(0)">Themes</a>
+        </div>
+        <div class="sidebar-separator"></div>
+      </div>
+      <div id="content">
+        <div id="content-header">
+          <!--<div id="settings-button"></div>-->
+        </div>
+        <div id="content-items"></div>
+      </div>
+    </div>
+    <script type="module" src="modules/main.mjs"></script>
+  </body>
+
+<!-- Mirrored from chromewebstore.callyham.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Nov 2024 20:07:47 GMT -->
+</html>

@@ -1,0 +1,18 @@
+<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="4.5" cy="4.5" r="4.5" fill="#CACACA"/>
+<mask id="mask0_163_44" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="9" height="9">
+<circle cx="4.5" cy="4.5" r="4.5" fill="black"/>
+</mask>
+<g mask="url(#mask0_163_44)">
+<g filter="url(#filter0_f_163_44)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 -5H-3V10H4.5H12V-5ZM4.5 10C2.01465 10 0 7.98529 0 5.5C0 3.01471 2.01465 1 4.5 1C6.98535 1 9 3.01471 9 5.5C9 7.98529 6.98535 10 4.5 10Z" fill="black" fill-opacity="0.4"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_163_44" x="-4" y="-6" width="17" height="17" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.5" result="effect1_foregroundBlur_163_44"/>
+</filter>
+</defs>
+</svg>
